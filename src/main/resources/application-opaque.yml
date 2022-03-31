@@ -1,0 +1,8 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        opaque:
+          introspection-uri: http://localhost:8180/auth/realms/SpringBootKeycloak/protocol/openid-connect/token/introspect
+          introspection-client-id: login-app
+          introspection-client-secret: 5a7ae4f9-4511-43d7-bed5-f424cb0f4828
